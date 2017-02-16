@@ -1,0 +1,20 @@
+
+<div class="edit_page col-md-8 col-md-offset-2">
+	<div class="row">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h1>Fix Pic!</h1>
+			</div>
+			<div class="panel-body">
+			<div class="current-image">
+			<div class="strong center">Right Now</div>
+			<%= image_tag @pic.image.url(:medium) %>
+				<%= render 'form' %>
+			</div>
+			</div>
+
+		</div>
+	</div>
+
+<div>
+
